@@ -2,13 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cifrado César</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <div class="contenedor">
+        <header class="cabecera">
+            <h4>
+                PALABRAS OCULTAS...mensajería privada
+            </h4>
+        </header>
+        <div id="offset1">Nivel de Seguridad<input type="number" cols="5" rows="1" name="offset" id="offset">
+        </div>
+        <div id="encodeDecodeButton">
+            <input type="button" value="Ocultar" id="buttonEncode" class="firstButton btn">
+            <input type="button" value="Descubrir" id="buttonDecode" class="firstButton btn">
+            <input type="button" value="Limpiar" id="buttonClear" class="secondButton btn">
+            <input type="button" value="Guardar" id="buttonSave" class="secondButton btn">
+        </div>
+        <div id="main">
+            <div id="encodeMessage" class="encodeDecodeMessage">
+                <label for="message">Escribe tu mensaje para ocultar o tu mensaje oculto...</label>
+                <textarea type="text" class="texts" id="message" placeholder="Ingresa tu texto"></textarea>
+            </div>
 
+            <div id="decodeMessage" class="encodeDecodeMessage">
+                <label for="resultados">...Aquí está tu mensaje final</label>
+                <input type="text" class="texts" id="resultados" placeholder=""></input>
+            </div>
+        </div>
+        <div id="send">
+            <label for="email">Email:</label>
+            <input type="email" id="mail" value="tucorreo@ejemplo.com">
+
+            <div id="sendButton"> <input type="submit" value="Enviar" id="buttonSend" class="secondButton btn"></div>
+        </div>
+        <a download="info.txt" id="downLoadLink">Descarga mensaje transformado</a>
+        <footer>
+            &copy; Copyright 2019 by NayPili. All rights reserved.
+        </footer>
+        <script src="index.js"></script>
+        <script src="cipher.js"></script>
+    </div>
 </body>
 
 </html>
