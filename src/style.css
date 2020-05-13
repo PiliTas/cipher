@@ -1,0 +1,208 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: whitesmoke;
+        font-family: verdana;
+        color: #5D576B;
+    }
+    
+    .contenedor {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .cabecera {
+        background-color: #5D576B;
+        color: #FDFDFF;
+        font-family: Verdana;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #contIzq {
+        background-color: #5D576B;
+        color: #FDFDFF;
+        float: left;
+        height: 63%;
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 90px;
+        border-radius: 8px;
+        padding-right: 20px;
+    }
+    
+    #texto1 {
+        margin-left: 15px;
+        margin-bottom: 30px;
+        color: #FDFDFF;
+    }
+    
+    #texto2 {
+        margin-left: 20px;
+        margin-top: 20px;
+        color: #FDFDFF;
+    }
+    
+    #contenidoIzq {
+        height: 20px;
+        width: 100%;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 80px;
+        padding-right: 30px;
+        color: #FDFDFF;
+    }
+    
+    #contDer {
+        float: left;
+        height: 485px;
+        width: 60%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+    
+    #offset {
+        width: 40px;
+        padding: 1px;
+        border-radius: 8px;
+        margin-left: 10px;
+        text-align: center;
+        resize: none;
+        margin-bottom: 5px;
+    }
+    
+    #offset1 {
+        float: right;
+        margin-bottom: 5px;
+    }
+    
+    label {
+        margin-top: 8px;
+    }
+    
+    #main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .encodeDecodeMessage {
+        height: 120px;
+        padding-left: 10px;
+        width: 88%;
+        color: #5D576B;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        /* justify-content: center; */
+    }
+    
+    #message {
+        background-color: #FDFDFF;
+        margin-bottom: 40px;
+    }
+    
+    #decdeMessage {
+        margin-top: 20px;
+    }
+    
+    #resultados {
+        /* margin-top: 30px; */
+        background-color: rgb(238, 227, 227);
+    }
+    
+    #encodeDecodeButton {
+        height: 40px;
+        margin-top: 10px;
+    }
+    
+    #send {
+        margin-top: 40px;
+    }
+    
+    .btn {
+        height: 35px;
+        /* float: right; */
+        width: 80px;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 8px;
+        margin-left: 5px;
+        border: 1px solid #5D576B;
+    }
+    
+    .firstButton {
+        color: #FDFDFF;
+        background-color: #661E13;
+    }
+    
+    .firstButton:hover {
+        background-color: rgb(209, 56, 76);
+    }
+    
+    .secondButton {
+        color: #FDFDFF;
+        background-color: #301137;
+        border: 1px solid #5D576B;
+    }
+    
+    .secondButton:hover {
+        opacity: 0.9;
+        background-color: rgb(123, 13, 138);
+    }
+    
+    .texts {
+        height: 5rem;
+        width: 100%;
+        background-color: rgb(238, 227, 227);
+        border-radius: 8px;
+        padding: 10px;
+        font-family: Verdana;
+        font-size: 15px;
+        color: #5D576B;
+        margin-top: 5px;
+        resize: none;
+    }
+    
+    #sendButton {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* #sendSaveButton {
+    height: 25px;
+    color: #5D576B;
+    height: 40px;
+    margin-top: 30px;
+} */
+    
+    #downLoadLink {
+        display: none;
+        float: right;
+    }
+    
+    #mail {
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+        color: white;
+        background-color: #5D576B;
+        margin-top: 15px;
+    }
